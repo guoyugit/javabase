@@ -55,7 +55,7 @@ public class Insert {
      外层循环是大约n次，内层最坏情况下长度递增，也是1+2+…+n，也是N^2，所以插入排序最坏情况下的
      时间复杂度是O(N^2)。
      空间复杂度
-     插入排序仅仅需要几个临时变量来辅助完成插入排序的过程，所以额外的内存消耗也是常量级的，所以插入排序的时间复杂度是O(N)。
+     插入排序仅仅需要几个临时变量来辅助完成插入排序的过程，所以额外的内存消耗也是常量级的，所以插入排序的空间复杂度是O(N)。
      稳定性
      稳定，一个数只有前面的数比它大，才会向前移动，所以不会改变两个相等元素的相对位置。
      */
@@ -77,10 +77,24 @@ public class Insert {
         }
     }
 
+    public static void insertOther(int[] a) {
+        if (Utils.isEmptyArray(a)) return;
+        int select = 0;
+        for (int i = 1; i < a.length; i++) {
+//            if (a[i] >= a[i - 1]) continue;
+            select = a[i];
+            int j = 0;
+            for (j = i; j > 0 && a[j - 1] > select; j--) {//寻找过程中依次替换需要替换的值
+                a[j] = a[j - 1];
+            }
+            a[j] = select;
+        }
+    }
+
 
     public static void main(String[] args) {
         int[] array = {1, 3, 5, 4, 2, 1, 0, 10};
-        insertAdvance(array);
+        insertOther(array);
         System.out.println(Arrays.toString(array));
     }
 }
