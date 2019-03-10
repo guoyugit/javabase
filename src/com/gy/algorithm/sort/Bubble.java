@@ -22,11 +22,11 @@ public class Bubble {
     因为我们每次比较大小时都是用的<或者>号，所以两个数相等时它们的相对位置不会改变，所以冒泡排序是一种稳定的排序算法
      */
     public static void bubble(int[] a) {
-        if (a == null || a.length == 0) return;
+        if (Utils.isEmptyArray(a)) return;
         for (int i = 0; i < a.length - 1; i++) {//进行n-1次比较 将最大值往前抛出
             for (int j = 0; j < a.length - i - 1; j++) { //内循环每次需要去掉外循环已经排好序的值
                 if (a[j] > a[j + 1]) {
-                    swap(a, j, j + 1);
+                    Utils.swap(a, j, j + 1);
                 }
             }
         }
@@ -45,20 +45,13 @@ public class Bubble {
             flag = false;//每次循环前默认该循环已经排好序
             for (int j = 0; j < a.length - i - 1; j++) { //内循环每次需要去掉外循环已经排好序的值
                 if (a[j] > a[j + 1]) {
-                    swap(a, j, j + 1);
+                    Utils.swap(a, j, j + 1);
                     if (!flag)
                         flag = true;//存在交换操作，即需要继续排序
                 }
             }
         }
         System.out.println("排序结束后结果：");
-    }
-
-
-    public static void swap(int[] array, int pre, int next) {
-        int i = array[pre];
-        array[pre] = array[next];
-        array[next] = i;
     }
 
     public static void main(String[] args) {
