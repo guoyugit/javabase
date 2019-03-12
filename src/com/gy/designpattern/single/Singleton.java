@@ -1,4 +1,4 @@
-package com.gy.pattern.single;
+package com.gy.designpattern.single;
 
 /**
  * 1.构造函数私有化；

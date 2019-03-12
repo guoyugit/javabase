@@ -1,4 +1,4 @@
-package com.gy.pattern.proxy.dynamic.jdk;
+package com.gy.designpattern.proxy.dynamic.jdk;
 public class Run {
 	public static void main(String[] args) {
 		ForumService target = new ForumServiceImpl();

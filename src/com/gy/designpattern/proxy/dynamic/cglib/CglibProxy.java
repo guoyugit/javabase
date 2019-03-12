@@ -1,4 +1,4 @@
-package com.gy.pattern.proxy.dynamic.cglib;
+package com.gy.designpattern.proxy.dynamic.cglib;
 
 import java.lang.reflect.Method;
 

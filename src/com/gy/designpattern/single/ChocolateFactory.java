@@ -1,4 +1,4 @@
-package com.gy.pattern.single;
+package com.gy.designpattern.single;
 
 /**
  * ClassName: ChocolateFactory

@@ -1,10 +1,6 @@
-package com.gy.pattern.proxy.staticproxy;
+package com.gy.designpattern.proxy.staticproxy;
 
-import com.gy.pattern.proxy.dynamic.jdk.ForumService;
-import com.gy.pattern.proxy.dynamic.jdk.ForumServiceImpl;
-import net.sf.cglib.proxy.Enhancer;
-import net.sf.cglib.proxy.MethodInterceptor;
-import net.sf.cglib.proxy.MethodProxy;
+import com.gy.designpattern.proxy.dynamic.jdk.ForumService;
 
 import java.lang.reflect.Method;
 

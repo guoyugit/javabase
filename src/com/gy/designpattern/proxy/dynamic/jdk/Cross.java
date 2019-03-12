@@ -1,4 +1,4 @@
-package com.gy.pattern.proxy.dynamic.jdk;
+package com.gy.designpattern.proxy.dynamic.jdk;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
