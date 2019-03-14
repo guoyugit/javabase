@@ -13,9 +13,9 @@ package com.gy.datastructure.recursion;
  */
 public class TestTriangle {
     public static void main(String[] args) {
-//        System.out.println(printNumRecursion(1));
-//        System.out.println(printNumRecursion(2));
-//        System.out.println(printNumRecursion(3));
+        System.out.println(printNumRecursion(1));
+        System.out.println(printNumRecursion(2));
+        System.out.println(printNumRecursion(3));
         System.out.println(printNumRecursion(4));
     }
 
