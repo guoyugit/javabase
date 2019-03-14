@@ -1,4 +1,4 @@
-package com.gy.concurrent.base;
+package com.gy.concurrent.base.synchronizedabout;
 /**
  * @Description:子父类继承关系
  * 子类中的synchronized方法中可以调用父类的synchronized方法

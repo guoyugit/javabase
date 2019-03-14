@@ -1,4 +1,4 @@
-package com.gy.concurrent.base;
+package com.gy.concurrent.base.synchronizedabout;
 /**
  * @Description: synchronized可重入功能
  * 使用synchronized时，当一个线程得到了一个对象的锁，再次请求该对象是可以再次得到这个把锁的。

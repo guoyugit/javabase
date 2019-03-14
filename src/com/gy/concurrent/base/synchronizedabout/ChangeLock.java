@@ -1,4 +1,4 @@
-package com.gy.concurrent.base;
+package com.gy.concurrent.base.synchronizedabout;
 /**
  * @Description: 锁住的字符变量修改后，两把锁同时进入，设置的时间间隔无效：
  * @Author:         郭宇

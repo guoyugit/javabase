@@ -1,4 +1,4 @@
-package com.gy.concurrent.base;
+package com.gy.concurrent.base.synchronizedabout;
 
 /**
  * @Description: string字符串常量在常量池中只有一个引用，会出现死循环问题:

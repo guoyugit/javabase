@@ -1,4 +1,4 @@
-package com.gy.concurrent.base;
+package com.gy.concurrent.base.synchronizedabout;
 /**
  * @Description: 锁对象的属性发生改变时，不影响锁对于代码的锁定：
  * @Author:         郭宇

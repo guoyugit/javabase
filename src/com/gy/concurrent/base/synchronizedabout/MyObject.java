@@ -1,4 +1,4 @@
-package com.gy.concurrent.base;
+package com.gy.concurrent.base.synchronizedabout;
 
 /**
  * 同步：代表资源共享，达到线程安全

@@ -1,4 +1,4 @@
-package com.gy.concurrent.base;
+package com.gy.concurrent.base.synchronizedabout;
 /**
  * @Description: synchronized中的异常问题
  * synchronized代码块中碰到异常立即释放锁。

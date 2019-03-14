@@ -1,4 +1,4 @@
-package com.gy.concurrent.base;
+package com.gy.concurrent.base.synchronizedabout;
 /**
  * @Description: 脏读
  *	对一个对象的方法进行加锁时，要考虑到业务的整体性，如为set/get方法同时加锁，保证业务的原子性，侧面保证了业务的一致性。

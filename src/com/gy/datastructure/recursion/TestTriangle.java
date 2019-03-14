@@ -1,7 +1,7 @@
 package com.gy.datastructure.recursion;
 
 /**
- * ClassName: TestTriangle
+ * ClassName: TestTriangle 递归调用
  * Description:
  * date: 2019/3/14 11:32
  * 1/3/6/10/15/21 数字打印规律

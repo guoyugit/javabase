@@ -1,4 +1,4 @@
-package com.gy.concurrent.base;
+package com.gy.concurrent.base.synchronizedabout;
 /**
 * @Description:
   多个线程访问某一个类（对象或方法）时，这个类始终都能表现出正确的行为，那么就是线程安全的

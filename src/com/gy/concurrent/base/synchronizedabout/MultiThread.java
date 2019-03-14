@@ -1,4 +1,4 @@
-package com.gy.concurrent.base;
+package com.gy.concurrent.base.synchronizedabout;
 
 /**
  * synchronized获取的都是对象锁，而不是把方法当作锁，多个对象可以拥有多个对象锁
