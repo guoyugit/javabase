@@ -4,8 +4,8 @@ package com.gy.concurrent.base;
   多个线程访问某一个类（对象或方法）时，这个类始终都能表现出正确的行为，那么就是线程安全的
  （线程排队按照cpu分配的先后顺序进行）
  线程要执行synchronized包裹的代码需要首先尝试获得锁，获得锁后执行内部代码，获取不到，不断尝试获取锁。直到拿到为止，多个线程同时竞争。
- * @Author:         郭宇
-* @CreateDate:     2019/3/12 13:34
+ * @Author:    郭宇
+* @CreateDate: 2019/3/12 13:34
 */
 public class MyThread extends Thread {
 

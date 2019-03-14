@@ -83,7 +83,7 @@ public class LinkList {
     public Link find(float key) {
         Link current = first;
         while (current != null && current.getData() != key) {
-            if (current.getNext() == null) return null;//全部遍历完还未找到匹配的节点，直接返回null
+//            if (current.getNext() == null) return null;//全部遍历完还未找到匹配的节点，直接返回null
             current = current.getNext();
         }
         return current;

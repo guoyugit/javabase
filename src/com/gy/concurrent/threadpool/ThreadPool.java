@@ -1,5 +1,7 @@
 package com.gy.concurrent.threadpool;
 
+import java.util.concurrent.ThreadPoolExecutor;
+
 /**
  * 为什么用线程池?
  1.创建/销毁线程伴随着系统开销，过于频繁的创建/销毁线程，会很大程度上影响处理效率。
@@ -10,5 +12,8 @@ package com.gy.concurrent.threadpool;
  学习Java中的线程池，就可以直接学习他了对线程池的配置，就是对ThreadPoolExecutor构造函数的参数的配置。
  */
 public class ThreadPool {
+
+    public static void main(String[] args) {
+    }
 
 }
