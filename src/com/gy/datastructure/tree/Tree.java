@@ -1,6 +1,8 @@
 package com.gy.datastructure.tree;
 
 
+import java.util.Queue;
+
 /**
  * 求一颗二叉树中的最大距离
  * 二叉树最大距离其实就是左子树最长距离+右子树最长距离，所以可以通过递归来做，递归的求左子树最大距离和右子树最大距离，然后判断，更新结果。
