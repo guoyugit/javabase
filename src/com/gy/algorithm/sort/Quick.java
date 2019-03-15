@@ -48,7 +48,7 @@ public class Quick {
     private static int quickSort(int[] array, int left, int right) {
         int num = array[left];//获取左部头节点为基准数
         while (left < right) {//获取的最左边的数 需要从最右边开始遍历
-            while (array[right] >= num) right--;
+            while (left < right && array[right] >= num) right--;//left<right必须要写，避免越界，>= 避免死循环
             array[left] = array[right];
             while (left < right && array[left] <= num) left++;
             array[right] = array[left];
