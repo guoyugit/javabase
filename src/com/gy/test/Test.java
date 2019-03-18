@@ -12,9 +12,14 @@ import java.util.HashMap;
  */
 public class Test {
 
-    public static void main(String[] args) {
-        int[] t = {1, 2, 3, 2, 2, 2, 5, 4, 2};
-        System.out.println(a(t));
+    public static void main(String[] args) throws InterruptedException {
+        ab();
+    }
+
+    private static void ab() throws InterruptedException {
+        Thread.sleep(1000);
+        int[] ints = new int[1024 * 512];
+        ab();
     }
 
     public static int a(int[] array) {
