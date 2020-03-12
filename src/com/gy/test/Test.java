@@ -2,6 +2,8 @@ package com.gy.test;
 
 import java.io.InputStreamReader;
 import java.util.HashMap;
+import java.util.Map;
+import java.util.regex.Pattern;
 
 /**
  * ClassName: Test
@@ -14,7 +16,17 @@ import java.util.HashMap;
 public class Test {
 
     public static void main(String[] args) throws InterruptedException {
-
+        Map<String, String> smsParamMap = new HashMap<>(3);
+        smsParamMap.put("a","1");
+        smsParamMap.put("b","2");
+        smsParamMap.put("c","3");
+        smsParamMap.put("d","4");
+        Map<String, String> newMap = new HashMap<>();
+        newMap.putAll(smsParamMap);
+        newMap.put("e","5");
+        newMap.forEach((k,v)->{
+            System.out.println(k+"==================="+v);
+        });
     }
 
     private static void ab() throws InterruptedException {
